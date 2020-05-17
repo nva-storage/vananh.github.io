@@ -1,0 +1,72 @@
+/* Css Custom and more */
+* {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-size: 15px; 
+    font-style: normal; 
+    font-variant: normal; 
+}
+.router-link-exact-active {
+    color: darksalmon !important;
+}
+a:hover{
+    color: darksalmon !important;
+    text-decoration: none !important;
+}
+.bg-main-color {
+    background-color: #1caba0;
+}
+#header {
+    padding: 0;
+    margin: 0;
+}
+#header .navbar {
+    -webkit-box-shadow: 7px 13px 34px -15px rgba(0,0,0,0.62);
+    -moz-box-shadow: 7px 13px 34px -15px rgba(0,0,0,0.62);
+    box-shadow: 7px 13px 34px -15px rgba(0,0,0,0.62);
+}
+#header .navbar .container-fluid .navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+}
+#header .navbar,
+#header .navbar a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+#content-main {
+    margin-top: 80px;
+}
+.categories-box, .post-box {
+    margin-bottom: 30px;
+}
+.list-group-item.active {
+    background-color: #1caba0;
+    border-color: #1caba0;
+}
+.text-title {
+    font-size: 18px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.card {
+    border-radius: 0;
+}
+.right-20 {
+    padding-right: 20px;
+}
+.footer-copyright {                                                                   
+    background-color: #dee2e6;
+}
+#content-home .breadcrumb {
+    margin-top: 20px;
+}
+.no-margin-top {
+    margin-top: 0;
+}
+.no-padding {
+    padding: 0;
+}
+.post-box-content {
+    margin-bottom: 20px;
+}
